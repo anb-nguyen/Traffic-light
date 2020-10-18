@@ -1,15 +1,6 @@
 //*******************************************************************************
-// Project 		Timer Demo1 Single-Timer Single-LED-Flash (Embedded C)
-// Target 		ATMEL ATmega2560 micro-controller on Arduino 2560 Mega board
-// Program		TimerDemo1_SingleTimerSingleLEDFlash_2560_C.c
-// Author		Richard Anthony
-// Date			10th September 2015
+// Project 		Traffic_light
 
-// Function			Demonstrates how to use the programmable timers
-// 					Flashes a single LED at 1Hz (1 flash per second)
-//					Also shows the use of an Interrupt Handler
-
-//					The red on-board LED on Port B bit 7 is used to show the output of the program
 //*****************************************
 #include <avr/io.h>
 #include <avr/interrupt.h>
